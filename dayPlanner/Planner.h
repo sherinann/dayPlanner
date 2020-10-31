@@ -1,11 +1,12 @@
 #pragma once
-#include <string>
+#include "Task.h"
+#include <list>
 
 class Planner
 {
-	std::string task;
-	//make these date types
-	std::string deadline;
-	std::string reminder;
+	std::list<Task> taskList;
+
+	//add date type
+	std::string date;
 };
 
