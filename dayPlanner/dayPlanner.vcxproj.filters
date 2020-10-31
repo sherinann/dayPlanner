@@ -13,10 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Planner">
+      <UniqueIdentifier>{a3a459ee-a207-4e3d-b6b2-99dc250e0911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Planner">
+      <UniqueIdentifier>{91faea4e-442b-480b-847f-6252e3ddb0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlannerManager">
+      <UniqueIdentifier>{0b8b7a05-4bcf-4a43-80bd-01579799daf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PlannerManager">
+      <UniqueIdentifier>{01d541a2-af1d-4fff-81a0-dc6c5a1287ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dayPlanner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Planner.cpp">
+      <Filter>Source Files\Planner</Filter>
+    </ClCompile>
+    <ClCompile Include="PlannerManager.cpp">
+      <Filter>Source Files\PlannerManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Planner.h">
+      <Filter>Header Files\Planner</Filter>
+    </ClInclude>
+    <ClInclude Include="PlannerManager.h">
+      <Filter>Header Files\PlannerManager</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
