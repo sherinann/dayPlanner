@@ -140,12 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dayPlanner.cpp" />
-    <ClCompile Include="Planner.cpp" />
+    <ClCompile Include="Task.cpp" />
     <ClCompile Include="PlannerManager.cpp" />
+    <ClCompile Include="Planner.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Planner.h" />
+    <ClInclude Include="Task.h" />
     <ClInclude Include="PlannerManager.h" />
+    <ClInclude Include="Planner.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
