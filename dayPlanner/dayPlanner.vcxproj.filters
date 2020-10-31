@@ -41,14 +41,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PlannerManager.h">
-      <Filter>Header Files\PlannerManager</Filter>
-    </ClInclude>
     <ClInclude Include="Task.h">
       <Filter>Header Files\Planner</Filter>
     </ClInclude>
     <ClInclude Include="Planner.h">
       <Filter>Header Files\Planner</Filter>
+    </ClInclude>
+    <ClInclude Include="PlannerManager.h">
+      <Filter>Header Files\PlannerManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

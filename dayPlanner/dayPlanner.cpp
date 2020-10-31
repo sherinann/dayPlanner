@@ -3,10 +3,12 @@
 
 #include <iostream>
 #include <string>
+#include "PlannerManager.h"
 
 int main()
 {
 	std::cout << "Daily Planner";
+	bool success = setPlanner();
 }
 
 
